@@ -1,0 +1,56 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Tesztek_doga",
+    "dateExported": "2024-04-19T12:05:23.805Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "195bafa3-f086-4c24-a006-31bd002e399f",
+            "colId": "adf4aa70-5403-4788-a9a0-589614989aa8",
+            "containerId": "",
+            "name": "get all Teszt with kat nev",
+            "url": "tesztek",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-19T12:00:09.478Z",
+            "modified": "2024-04-19T12:01:09.363Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b980504f-af23-4649-b457-c1a8b0b0d3fd",
+            "colId": "adf4aa70-5403-4788-a9a0-589614989aa8",
+            "containerId": "",
+            "name": "get all Teszt with kat nev  Kategoria ID alapján",
+            "url": "tesztek/kategoria/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-19T12:01:41.052Z",
+            "modified": "2024-04-19T12:02:32.314Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f7fff4f0-578b-49cf-856d-0b50ea3a2630",
+            "colId": "adf4aa70-5403-4788-a9a0-589614989aa8",
+            "containerId": "",
+            "name": "Get Kategoria",
+            "url": "kategoria",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-19T12:04:06.681Z",
+            "modified": "2024-04-19T12:04:16.439Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:8000/api/"
+        }
+    }
+}
