@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\KategoriaController;
+use App\Http\Controllers\TesztController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,4 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-
+Route::get('/tesztek', [TesztController::class, 'tesztNevvel']);
+Route::get('/kategoria', [KategoriaController::class, 'index']);
+//get '/tesztek/kategoria/{id} adott kategória tesztjei
+Route::get('/tesztek/kategoria/{id}', [TesztController::class, 'tesztekKategoriankent']);
